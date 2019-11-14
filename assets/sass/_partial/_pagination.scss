@@ -6,22 +6,25 @@
   margin: $pagination-margin;
   text-align: center;
   @include clearfix;
+  ul {
+    padding-inline-start: 0;
 
-  li {
-    display: inline-block;
-
-    a {
-      background-color: #fff;
-      margin-left: .1em;
-      margin-right: .1em;
-      border: 1px solid #222;
-      color: #222;
-      float: left;
-      line-height: 1.42857143;
-      padding: 6px 12px;
-      position: relative;
-      text-decoration: none;
-      margin-bottom: 0.2em;
+    li {
+      display: inline-block;
+  
+      a {
+        background-color: #fff;
+        margin-left: .1em;
+        margin-right: .1em;
+        border: 1px solid #222;
+        color: #222;
+        float: left;
+        line-height: 1.42857143;
+        padding: 6px 12px;
+        position: relative;
+        text-decoration: none;
+        margin-bottom: 0.2em;
+      }
     }
   }
 
